@@ -13,7 +13,9 @@ Este proyecto es una aplicación en Java que permite la conversión de monedas u
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/ecordero/Conversor-de-Monedas-Challenge.git
+   
+   git clone https://github.com/ecordero/Conversor-de-Monedas-Challenge-Alura.git
+   
 2. Importa el proyecto en tu IDE favorito (por ejemplo, IntelliJ IDEA).
 
 3. Asegúrate de tener las siguientes dependencias en tu archivo pom.xml( Ussis Maven):
@@ -40,22 +42,27 @@ String apiKey = "tu_clave_api_aqui";
 
 ## Tecnologías
 
-.Java 11.
-.Maven
-.API de ExchangeRate
-.Gson para JSON
-.HttpClient para solicitudes HTTP
+- **Java 11**
+- **Maven**
+- **API de ExchangeRate**
+- **Gson** para manipulación de JSON
+- **HttpClient** para realizar solicitudes HTTP
+
 
 ## Estructura del Proyecto
 
-src/
-├── herramientas/
-│   ├── Api.java        # Clase para conectarse a la API
-│   └── Conversor.java  # Lógica de conversión de monedas
-├── modelos/
-│   └── Moneda.java     # Modelo para representar las tasas de cambio
-└── principal/
-└── Main.java       # Punto de entrada de la aplicación
+ProyectoConversorMonedas
+
+    herramientas
+        Api.java
+        Conversor.java
+    modelos
+        Moneda.java
+    principal
+        Principal.java
+    .gitignore
+    LEAME.md
+    pom.xml
 
 ## Autor
 
