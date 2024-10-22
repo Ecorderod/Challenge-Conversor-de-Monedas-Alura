@@ -20,22 +20,6 @@ Este proyecto es una aplicación en Java que permite la conversión de monedas u
 
 3. Asegúrate de tener las siguientes dependencias en tu archivo pom.xml( Ussis Maven):
 
-<dependencies>
-  <!-- HttpClient para realizar solicitudes HTTP -->
-  <dependency>
-    <groupId>org.apache.httpcomponents</groupId>
-    <artifactId>httpclient</artifactId>
-    <version>4.5.13</version>
-  </dependency>
-
-  <!-- Gson para trabajar con JSON -->
-  <dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.8.6</version>
-  </dependency>
-</dependencies>
-
 4. Coloca tu clave de API directamente en el código donde se realiza la solicitud a la API de ExchangeRate. Ejemplos:
 
 String apiKey = "tu_clave_api_aqui";
