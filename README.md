@@ -14,7 +14,7 @@ Este proyecto es una aplicación en Java que permite la conversión de monedas u
 1. Clona el repositorio:
    ```bash
    
-   git clone https://github.com/ecordero/Conversor-de-Monedas-Challenge-Alura.git
+   git clone https://github.com/ecorderod/Challenge-Conversor-de-Monedas-Alura.git
    
 2. Importa el proyecto en tu IDE favorito (por ejemplo, IntelliJ IDEA).
 
