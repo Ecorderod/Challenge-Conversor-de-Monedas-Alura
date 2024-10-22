@@ -24,6 +24,23 @@ Este proyecto es una aplicación en Java que permite la conversión de monedas u
 
 String apiKey = "tu_clave_api_aqui";
 
+## Uso
+
+Al ejecutar la aplicación, verás el siguiente menú de opciones por consola para realizar la conversión de monedas:
+
+CONVERSOR DE MONEDAS
+1. USD a COP --- Dólar >>> Peso Colombiano
+2. COP a USD --- Peso Colombiano >>> Dólar
+3. USD a ARS --- Dólar >>> Peso Argentino
+4. ARS a USD --- Peso Argentino >>> Dólar
+5. USD a BRL --- Dólar >>> Real Brasileño
+6. BRL a USD --- Real Brasileño >>> Dólar
+7. SALIR
+
+
+Selecciona la opción deseada ingresando el número correspondiente, seguido de la cifra de dinero que deseas convertir.
+
+
 ## Tecnologías
 
 - **Java 11**
